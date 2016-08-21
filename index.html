@@ -19,8 +19,51 @@
     </section>
 
     <section class="main-content">
-      <h2>
-<a id="zhjail-云共享你的知乎黑名单" class="anchor" href="#zhjail-%E4%BA%91%E5%85%B1%E4%BA%AB%E4%BD%A0%E7%9A%84%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%90%8D%E5%8D%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>zhjail: 云共享你的知乎黑名单</h2>
+      <h1>
+<a id="zhjail-云共享你的知乎黑名单" class="anchor" href="#zhjail-%E4%BA%91%E5%85%B1%E4%BA%AB%E4%BD%A0%E7%9A%84%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%90%8D%E5%8D%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>zhjail: 云共享你的知乎黑名单</h1>
+
+<h2>
+<a id="这是什么" class="anchor" href="#%E8%BF%99%E6%98%AF%E4%BB%80%E4%B9%88" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>这是什么</h2>
+
+<p>在知乎经常碰到三观不合的人，于是做了这个 Chrome 插件，用于与三观一致的人共享黑名单列表，一次拉黑，多人共享。</p>
+
+<p>这个功能的创意来源于一个恶搞的小笑话「云把妹」——每个人将自己认识的妹子上传到云端，大家就都拥有了无数的妹子（这只是个笑话，请勿过度解读）。「zhjail」借鉴这样的思路，将优质用户的黑名单都同步到云端，所有人都可以通过 Chrome 插件将这批人一键拉黑。</p>
+
+<p>由于我并不会 JavaScript，之前也从未接触过 Chrome extension 的编写，目前版本为我昨晚对着 Chrome 的文档照猫画虎做出的第一个版本，如果发生不可用敬请谅解~~~</p>
+
+<h2>
+<a id="如何使用" class="anchor" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>如何使用</h2>
+
+<p><a href="https://raw.githubusercontent.com/xlzd/zhjail/master/release/zhjail_0.1.0.crx">下载插件</a>，由于权限原因，目前需要打开 拓展程序管理页(地址栏输入 chrome://extensions/ 打开) 进行安装。拓展程序管理页将 .crx 文件拖到 Chrome 中，如图：</p>
+
+<p><img src="https://github.com/xlzd/zhjail/blob/master/screenshots/install.png" alt="install.png"></p>
+
+<p>点击「添加拓展程序」完成安装。</p>
+
+<p>安装 zhjail 插件之后（暂时只支持 Chrome），打开你的 <a href="https://www.zhihu.com/settings/filter">屏蔽设置</a> 页（zhjail 只在这个页面被激活），如下图：</p>
+
+<p><img src="https://github.com/xlzd/zhjail/blob/master/screenshots/zhjail1.png" alt="jail1"></p>
+
+<p>点击插件之后，会弹出一个小窗口，列出你已经封禁的用户：</p>
+
+<p><img src="https://github.com/xlzd/zhjail/raw/master/screenshots/click.png" alt="click.png"></p>
+
+<p>点击「共享我的黑名单」，将会把你的黑名单用户上传到服务器端（为防止被人恶意将优质用户刷入黑名单，上传功能需私信我人工开启）：</p>
+
+<p><img src="https://github.com/xlzd/zhjail/raw/master/screenshots/share.png" alt="share.png"></p>
+
+<p>点击「同步云端黑名单」，将会把服务器端的黑名单自动全部拉黑：</p>
+
+<p><img src="https://github.com/xlzd/zhjail/blob/master/screenshots/sync.png" alt="sync.png"></p>
+
+<h2>
+<a id="后续功能" class="anchor" href="#%E5%90%8E%E7%BB%AD%E5%8A%9F%E8%83%BD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>后续功能</h2>
+
+<ul>
+<li>完善界面</li>
+<li>优化效率</li>
+<li>加入账户体系，支持按「圈子」拉黑自己圈子里的人贡献的黑名单</li>
+</ul>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/xlzd/zhjail">Zhjail</a> is maintained by <a href="https://github.com/xlzd">xlzd</a>.</span>
